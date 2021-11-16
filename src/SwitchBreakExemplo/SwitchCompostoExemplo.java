@@ -1,11 +1,14 @@
 package SwitchBreakExemplo;
 
+import java.util.Scanner;
+
 public class SwitchCompostoExemplo {
 
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		String resultado = "";
 
-		int valor = 11;
+		int valor = sc.nextInt();
 
 		switch (valor) {
 
@@ -42,8 +45,9 @@ public class SwitchCompostoExemplo {
 			break;
 
 		}
+		sc.close();
 
-		System.out.println("Resultado km/1: " + valor + "=" + resultado);
+		System.out.println("Resultado km/1: " + valor + " = " + resultado);
 
 	}
 }
