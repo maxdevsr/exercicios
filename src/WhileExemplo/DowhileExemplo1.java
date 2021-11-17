@@ -3,11 +3,11 @@ package WhileExemplo;
 public class DowhileExemplo1 {
 
 	public static void main(String[] args) {
-		long d = 10;
+		long d = 2;
 
 		do {
 			System.out.println(d++);
-		} while (d <= 20);
+		} while (d <= 10);
 	}
 
 }
